@@ -3,16 +3,7 @@ body {
       ADD YOUR CUSTOM STYLING HERE. (INSIDE THE body {...} section.)
       IT WILL TAKE PRECEDENCE OVER THE STYLING IN THE STYLE.CSS FILE.
    ***/
-    //  background-color: white;
-    //  .content {
-    //   font-size: 14px;
-    //  }
-    //  h1 {
-    //   color: black;
-    //  }
-}
-
-/* Cambiar el fondo del encabezado al color del resto de la página */
+   /* Cambiar el fondo del encabezado al color del resto de la página */
 .site-header, 
 header, 
 [class*="header"] {
@@ -25,4 +16,14 @@ header,
 .site-header h1, 
 .site-header a {
     color: var(--text-normal) !important;
+}
+
+    
+    //  background-color: white;
+    //  .content {
+    //   font-size: 14px;
+    //  }
+    //  h1 {
+    //   color: black;
+    //  }
 }
