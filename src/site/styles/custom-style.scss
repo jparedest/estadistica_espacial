@@ -12,21 +12,17 @@ body {
     //  }
 }
 
-// Quitar header/banner superior con degradado
-.site-header,
-header.site-header,
-.navbar,
-nav.navbar {
-  background: transparent !important;
-  background-image: none !important;
-  background-color: var(--background-primary) !important;
-  box-shadow: none !important;
-  border-bottom: none !important;
+/* Cambiar el fondo del encabezado al color del resto de la página */
+.site-header, 
+header, 
+[class*="header"] {
+    background-color: var(--background-primary) !important;
+    background: transparent !important; /* Quita el fondo rojo */
+    box-shadow: none !important; /* Quita sombras si las hay */
 }
 
-// Quitar degradado del título de página si lo hay
-.content-title,
-.page-header {
-  background: transparent !important;
-  background-image: none !important;
+/* Asegurar que el texto del título siga siendo legible */
+.site-header h1, 
+.site-header a {
+    color: var(--text-normal) !important;
 }
