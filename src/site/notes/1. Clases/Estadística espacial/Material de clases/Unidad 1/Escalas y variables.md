@@ -1,7 +1,6 @@
 ---
-{"dg-publish":true,"permalink":"/1-clases/estadistica-espacial/material-de-clases/unidad-1/escalas-y-variables/","noteIcon":"","dg-note-properties":{}}
+{"dg-publish":true,"permalink":"/1-clases/estadistica-espacial/material-de-clases/unidad-1/escalas-y-variables/","tags":["gardenEntry"],"noteIcon":"","dg-note-properties":{}}
 ---
-
 
 ---
 
