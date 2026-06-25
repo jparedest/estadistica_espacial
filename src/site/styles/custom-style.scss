@@ -11,3 +11,22 @@ body {
     //   color: black;
     //  }
 }
+
+// Quitar header/banner superior con degradado
+.site-header,
+header.site-header,
+.navbar,
+nav.navbar {
+  background: transparent !important;
+  background-image: none !important;
+  background-color: var(--background-primary) !important;
+  box-shadow: none !important;
+  border-bottom: none !important;
+}
+
+// Quitar degradado del título de página si lo hay
+.content-title,
+.page-header {
+  background: transparent !important;
+  background-image: none !important;
+}
