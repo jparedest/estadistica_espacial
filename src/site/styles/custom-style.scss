@@ -1,29 +1,20 @@
 body {
-    /***
-      ADD YOUR CUSTOM STYLING HERE. (INSIDE THE body {...} section.)
-      IT WILL TAKE PRECEDENCE OVER THE STYLING IN THE STYLE.CSS FILE.
-   ***/
-   /* Cambiar el fondo del encabezado al color del resto de la página */
-.site-header, 
-header, 
-[class*="header"] {
-    background-color: var(--background-primary) !important;
-    background: transparent !important; /* Quita el fondo rojo */
-    box-shadow: none !important; /* Quita sombras si las hay */
-}
+  /*** ADD YOUR CUSTOM STYLING HERE. ***/
 
-/* Asegurar que el texto del título siga siendo legible */
-.site-header h1, 
-.site-header a {
-    color: var(--text-normal) !important;
-}
+  /* Forzar el fondo gris-café del tema Maple claro */
+  .site-header, 
+  header, 
+  [class*="header"] {
+      background-color: #f4f0ec !important; /* El color exacto de tu fondo */
+      background: #f4f0ec !important; 
+      box-shadow: none !important;
+      border-bottom: none !important;
+  }
 
-    
-    //  background-color: white;
-    //  .content {
-    //   font-size: 14px;
-    //  }
-    //  h1 {
-    //   color: black;
-    //  }
+  /* Cambiar el título a un tono café oscuro para que contraste perfectamente */
+  .site-header h1, 
+  .site-header a,
+  .site-header .site-title {
+      color: #504238 !important;
+  }
 }
